@@ -1,0 +1,23 @@
+.App {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  padding: 24px 124px;
+}
+
+@import './components/layout/Navbar/Navbar.scss';
+
+@import './components/Dashboard/Dashboard.scss';
+@import './components/Dashboard/NotificationItem/NotificationItem.scss';
+@import './components/Dashboard/Notification/Notification.scss';
+
+@import './components/CreateProject/CreateProject.scss';
+@import './components/CreateProject/ProjectSummary/ProjectSummary.scss';
+@import './components/CreateProject/ProjectDetail/ProjectDetail.scss';
+
+@import './components/Auth/SignIn/SignIn.scss';
+@import './components/Auth/SignUp/SignUp.scss';
